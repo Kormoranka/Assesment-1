@@ -18,6 +18,6 @@ But I think I could be wrong here because when I looked up Wikipedia more carefu
 
 This means I should probably just exclude the word “storm” from data, as I just don’t have sufficient instructions to define a storm better than the word itself. I also decided to go with Y as a consonant at the beginning of a word, so in step one I omitted Y and went only with A, E, I, O, U.
 
-So after filtering Field name CZ_NAME for Condition Does not begin with A, E, I, O and U and Field name STATE for Condition = WASHINGTON and Field name EVENT_TYPE for Condition Does not contain ‘storm’. I ended up with a bunch of entries in the CZ_NAME column which I selected and used command Sort. After that I decided that the fastest way would be to count old school all the instances of entries. (This excluded entries beginning in vowels but contained those beginning with Y).
+So after filtering Field name CZ_NAME for Condition Does not begin with A, E, I, O and U and Field name STATE for Condition = WASHINGTON and Field name EVENT_TYPE for Condition Does not contain ‘storm’. I ended up with a bunch of entries in the CZ_NAME column which I selected and used command Sort. After that I decided that for me the fastest way to go about this would be to count old school all the instances of entries. (This excluded entries beginning in vowels but contained those beginning with Y).
 
-The answer now was: 111 counties. (It would take me couple days to discern which of the 39 Washington state administrative counties they belong to.)
+__The answer now was: 111 counties.__ It would take me couple days to discern which of the 39 Washington state administrative counties they belong to.
