@@ -1,7 +1,7 @@
 # Assesment-1
 Assesment no.1
 
-First I had to [google] how to apply search criteria to data sheets (http://www.mrexcel.com/forum/excel-questions/51386-deleting-lines-starting-certain-char.html).
+First I had to [google how to apply search criteria to data sheets] (http://www.mrexcel.com/forum/excel-questions/51386-deleting-lines-starting-certain-char.html).
 I needed to eliminate counties that have names beginning with vowels. In English, vowels are  (A, E, I, O, U and sometimes Y (which would exclude Yakima)). Y seems [not to be a vowel at the beginning of a word] (http://www.phonicsontheweb.com/y-roles.php).
 
 I used Data/Standard Filter to eliminate entries in Field Name CZ_NAME that meet the Condition Doesn’t begin with A AND E AND I AND O And U AND Y. Than in the column STATE I unchecked all, than checked WASHINGTON only.
